@@ -1,0 +1,117 @@
+<!doctype html>
+
+<!-- Hello World HTML -->
+<!-- don't forget to validate at https://validator.w3.org -->
+
+<html lang="en">
+
+    <head>
+        <!-- Where CSS and Meta Information Goes -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+        <!-- The text the user sees in browser tab -->
+        <title>Hello World 1.0</title>
+
+        <!-- this line is to include the FontAwesome icon set -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+
+        <!-- this line is to include Bootstrap formatting -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- This is how the web page knows about YOUR CSS file! -->
+        <link rel="stylesheet" type="text/css" href="hello-world.css"/>
+
+    </head>
+    <body>
+        <!-- This is where all the VISIBLE web page content goes -->
+        <h1><strong>Cole Lamers HMTL Experience!</strong></h1>
+          <p id="h1_p1"> <a href="cole_lamers_resume_GERMAN_POTTER.pdf" download>Attached is my Resume!</a></p>
+          <!-- Here is the HTML comment, this was one Cole put here so I can prove I know how to do it -->
+        <!-- outermost responsive container -->
+        <div class="container-fluid">
+
+            <!-- responsive row -->
+
+            <div id="hello-world-row" class="row row-eq-height">
+
+                <!-- responsive column that fills half of desktop screen -->
+                <div id="hello-world-column1" class="col-sm-6">
+
+                    <!-- the element accessed in our JavaScript "click" -->
+                    <p id="res_intro">A software engineering student with a background in general office work. I currently have working knowledge
+                      of Python 2.7 and Python 3.3, Java, HTML5, CSS, JavaScript, and comprehensional levels of Object Oriented Programming.</p>
+
+                  <h2 id="education_h2">Education</h2>
+                    <ul>
+                      <li>University of Wisconsin - Green Bay
+                        <strong>B.S. Computer Science Software Development</strong>
+                        --- Est. Dec. 2021</li>
+                      <li>Fox Valley Technical College – Appleton
+                        <strong>Business Management AAS </strong> --- Dec 2016</li>
+                    </ul>
+
+                    <h3 id="experience_h3">Professional Experience</h3>
+                      <ul>
+                        <li>Commercial Lending Processor, <strong>Capital Credit Union</strong> --- June 2018 – Jan 2020
+                        <ul>
+                          <li>- Easylender, Laserpro, Suntell</li>
+                          <li>- Worked with lenders, title companies, appraisers, and insurance agents</li>
+                          <li>- Knowledge of the regulations regarding commercial lending</li>
+                          <li>- Developed over 100 pages of notes for department processes</li>
+                        </ul>
+                      </li>
+                      <li>Mortgage Processor, <strong>Capital Credit Union</strong> ---  June 2017 – June 2018
+                        <ul>
+                          <li>Processed applications and disclosure packets</li>
+                          <li>Monitored TRID timelines to ensure federal compliance</li>
+                          <li>Established procedures to maintain organization and minimize errors</li>
+                        </ul>
+                      </li>
+                    <li>Teller, <strong>Capital Credit Union</strong> ---  March 2017 – June 2017
+                        <ul>
+                          <li>Run transactions and performed day end balancing</li>
+                          <li>Maintained compliance with confidentiality standards and federal laws</li>
+                          <li>General data entry</li>
+                          <li>Performed product referrals to members</li>
+                        </ul>
+                      </li>
+                    <li>Business Technology Tutor, <strong>Fox Valley Technical College</strong> --- Aug 2016 – June 2017
+                        <ul>
+                          <li>Aided students with business and IT related software</li>
+                          <li>Helped in navigation and general troubleshooting in Windows</li>
+                          <li>Taught students to use: Acrobat, Excel, Word, Terminal, HTML, VMWare, Linux</li>
+                        </ul>
+                      </li>
+
+                      </ul>
+
+                </div>
+
+                <!-- responsive column that fills half of desktop screen -->
+                <div id="hello-world-column2" class="col-sm-6">
+                  <img id="coleimg1" src="cole_helloworld.png" class="cole_image" alt="Funny picture of me">
+                  <img id="me_image" src="me_image.jpg" class="headshot" alt="Cole Headshot">
+
+                    <!-- empty element that will be filled via JavaScript -->
+                    <p>Here is my personality, here is my face. Of what you have
+                    seen, I belong at your place!</p>
+                    <ul>
+                      <li>I like to have fun!
+                      <li>I'm swollen with confidence!
+                      <li>Therefore, I'll bring conFUNdence to any team!
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- This is how the web page knows about YOUR JavaScript file! -->
+
+        <!-- WE WANT TO MAKE SURE ALL OF OUR HTML IS LOADED BEFORE !!!ANY!!! OF
+        OUR JAVASCRIPT IS LOADED!. VERY IMPORTANT -->
+        <script src="hello-world.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,77 @@
+/* Hello World CSS */
+
+/* don't forget to validate at https://jigsaw.w3.org/css-validator/ */
+
+
+body, #hello-world-column1, #hello-world-column2  {
+  background-color: #6DB3F2;
+  background-image: url('backroundimage_005.png');
+}
+
+body {
+  background: gray;
+  font-size: 16px;
+  height: 100vh; /* trick to make the "page" the full height */
+}
+
+#res_intro {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+p {
+    font-size: 2em;
+    color: #171717;
+}
+
+#hello-world-row {
+  height: 100vh;
+}
+
+#hello-world-column1, #hello-world-column2 {
+  font-size: 20px;
+}
+
+h1, #education_h2, #experience_h3 {
+  text-decoration: underline;
+  color:#ffff00
+}
+
+#h1_p1 {
+  text-decoration: underline;
+  font-weight:bolder;
+  color:#171717;
+}
+
+#coleimg1, #potteryimg, img {
+   padding: 6px;
+   border: 6px solid#171717;
+   background-color:black;
+   border-radius: 50%;
+   width: 40%;
+   height: 30%;
+}
+
+div#coleimg1 {
+     margin:0px auto;
+}
+
+#silly_dogs1 {
+  width: 50%;
+  height: 55%;
+  padding: 6px;
+  border: 6px solid#000000;
+  background-color:#ffffff;
+}
+
+#silly_dogs2 {
+  width: 350px;
+  height: 600px;
+
+}
+
+#spock {
+    margin:0 auto;
+    color: #ffffff;
+    font-size: 30px;
+}
